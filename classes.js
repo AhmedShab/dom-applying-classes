@@ -9,6 +9,8 @@ function start () {
 
   // Your turn! Create a new function called `two`, then call it from here.
   two();
+
+  three();
 }
 
 function one () {
@@ -28,5 +30,11 @@ function two() {
 }
 
 // CREATE FUNCTION three HERE
+function three() {
+  // Find the element we want to add event to
+  var three = document.getElementById('three');
+  // Add the event to that element
+  three.classList = 'red';
+}
 
 // CREATE FUNCTION makeVisible HERE
